@@ -13,4 +13,4 @@
 |
 */
 
-$router->get('/', 'ExampleController@index');
+$router->get('/api/get-data', 'ExampleController@index');

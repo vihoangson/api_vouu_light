@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 	$("button#get-question").click(function () {
-		$.get('http://ttht.oop.vn', (dataRandom) => {			
+		$.get('http://ttht.oop.vn/api/get-data', (dataRandom) => {			
 			clickbutton(dataRandom);
 		})
 
