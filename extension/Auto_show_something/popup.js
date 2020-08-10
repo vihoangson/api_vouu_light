@@ -13,7 +13,7 @@
 			$("#result-ttht").append(q);
 			$("#result-ttht").append(a);
 			var settings = {
-				"url": "https://api.chatwork.com/v2/rooms/119727315/messages",
+				"url": "https://api.chatwork.com/v2/rooms/197203548/messages",
 				"method": "POST",
 				"timeout": 0,
 				"headers": {
@@ -21,7 +21,7 @@
 					"Content-Type": "application/x-www-form-urlencoded"
 				},
 				"data": {
-					"body": ">>> Câu hỏi:\n"+v.q+"\n\n>>> Câu hỏi:\n"+v.a
+					"body": ">>> Câu hỏi:\n"+v.q+"\n\n>>> Trả lời:\n"+v.a
 				}
 			};
 
