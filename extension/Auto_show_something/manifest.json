@@ -6,10 +6,11 @@
     "bookmarks"
   ],
   "browser_action": {
-      "default_title": "My Bookmarks",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+    "default_title": "My Bookmarks",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
   },
+  "permissions":["https://api.chatwork.com/"],
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
