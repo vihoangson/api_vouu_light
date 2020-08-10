@@ -18,8 +18,13 @@ class ExampleController extends Controller
     public function __construct()
     {
     }
-
     public function index(){
+        $m = DB::select('select * from ttht ORDER BY RAND ( )   limit 1');
+        dd($m);
+        return();
+        //dd(Answers::select("a")->limit(1)->get());
+    }
+    public function getData(){
         return(DB::select('select * from ttht ORDER BY RAND ( )   limit 1'));
         //dd(Answers::select("a")->limit(1)->get());
     }
