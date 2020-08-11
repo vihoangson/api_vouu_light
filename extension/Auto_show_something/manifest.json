@@ -10,7 +10,9 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
-  "permissions":["https://api.chatwork.com/"],
+    "permissions": [
+    "https://api.chatwork.com/"
+  ],
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
